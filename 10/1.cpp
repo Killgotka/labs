@@ -10,7 +10,7 @@ int main()
     b = 0;
     scanf_s("%d\n", &a);
     scanf_s("%d", &b);
-    if ((A > 2) && (B <= 3)) {
+    if ((a > 2) && (b <= 3)) {
 printf("True");
 }
 else {
