@@ -10,7 +10,12 @@ int main()
     b = 0;
     scanf_s("%d\n", &a);
     scanf_s("%d", &b);
-    printf_s("%d", (a > 2) & (b <= 3));
+    if ((A > 2) && (B <= 3)) {
+printf("True");
+}
+else {
+printf("False");
+}
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
