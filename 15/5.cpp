@@ -13,9 +13,9 @@ int main(void)
 {
     int i, n;
     for (i = 1; i <= 5; ++i) {
-        printf("N:");
-        scanf("%d", &n);
-        printf("fact: %f\n", fact2(n));
+        printf_s("N:");
+        scanf_s("%d", &n);
+        printf_s("fact: %f\n", fact2(n));
     }
 }
 
